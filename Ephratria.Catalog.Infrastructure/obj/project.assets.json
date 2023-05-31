@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Ephratria.Catalog.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Ephratria.Catalog.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ephratria.Catalog.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ephratria.Catalog.Application.dll": {}
+        }
+      },
+      "Ephratria.Catalog.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Ephratria.Catalog.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ephratria.Catalog.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ephratria.Catalog.Application/1.0.0": {
+      "type": "project",
+      "path": "../Ephratria.Catalog.Application/Ephratria.Catalog.Application.csproj",
+      "msbuildProject": "../Ephratria.Catalog.Application/Ephratria.Catalog.Application.csproj"
+    },
+    "Ephratria.Catalog.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Ephratria.Catalog.Domain/Ephratria.Catalog.Domain.csproj",
+      "msbuildProject": "../Ephratria.Catalog.Domain/Ephratria.Catalog.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Ephratria.Catalog.Application >= 1.0.0",
+      "Ephratria.Catalog.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/pedro/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/pedro/projects/EPhatria/ephratria-catalogo/Ephratria.Catalog.Infrastructure/Ephratria.Catalog.Infrastructure.csproj",
+      "projectName": "Ephratria.Catalog.Infrastructure",
+      "projectPath": "/home/pedro/projects/EPhatria/ephratria-catalogo/Ephratria.Catalog.Infrastructure/Ephratria.Catalog.Infrastructure.csproj",
+      "packagesPath": "/home/pedro/.nuget/packages/",
+      "outputPath": "/home/pedro/projects/EPhatria/ephratria-catalogo/Ephratria.Catalog.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/pedro/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/home/pedro/projects/EPhatria/ephratria-catalogo/Ephratria.Catalog.Application/Ephratria.Catalog.Application.csproj": {
+              "projectPath": "/home/pedro/projects/EPhatria/ephratria-catalogo/Ephratria.Catalog.Application/Ephratria.Catalog.Application.csproj"
+            },
+            "/home/pedro/projects/EPhatria/ephratria-catalogo/Ephratria.Catalog.Domain/Ephratria.Catalog.Domain.csproj": {
+              "projectPath": "/home/pedro/projects/EPhatria/ephratria-catalogo/Ephratria.Catalog.Domain/Ephratria.Catalog.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

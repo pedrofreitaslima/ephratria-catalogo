@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jHVkzv+5GdxgA2uz+bvtrqhsGO5BUs0tx8noyzPahQA=",
+  "Source": "Ephratria.Catalog.Api",
+  "BasePath": "_content/Ephratria.Catalog.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

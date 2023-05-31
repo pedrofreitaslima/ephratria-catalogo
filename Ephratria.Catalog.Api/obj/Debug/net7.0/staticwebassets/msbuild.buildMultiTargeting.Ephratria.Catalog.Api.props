@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Ephratria.Catalog.Api.props" />
+</Project>

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephratria.Catalog.Api", "Ephratria.Catalog.Api\Ephratria.Catalog.Api.csproj", "{00F9CF61-14E4-45B1-9C1A-EACA121DD337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephratria.Catalog.Application", "Ephratria.Catalog.Application\Ephratria.Catalog.Application.csproj", "{FABD3AA4-1E91-4027-A9BF-E7EDB0247B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephratria.Catalog.Contract", "Ephratria.Catalog.Contract\Ephratria.Catalog.Contract.csproj", "{9618CFAF-ACA1-4D9B-AC36-748CDBD40935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephratria.Catalog.Domain", "Ephratria.Catalog.Domain\Ephratria.Catalog.Domain.csproj", "{3DCE9E17-8352-4595-AB79-0887F674A6A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephratria.Catalog.Infrastructure", "Ephratria.Catalog.Infrastructure\Ephratria.Catalog.Infrastructure.csproj", "{03899931-4C0F-4113-8E33-CA88D85D6ABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00F9CF61-14E4-45B1-9C1A-EACA121DD337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F9CF61-14E4-45B1-9C1A-EACA121DD337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F9CF61-14E4-45B1-9C1A-EACA121DD337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F9CF61-14E4-45B1-9C1A-EACA121DD337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FABD3AA4-1E91-4027-A9BF-E7EDB0247B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABD3AA4-1E91-4027-A9BF-E7EDB0247B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABD3AA4-1E91-4027-A9BF-E7EDB0247B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABD3AA4-1E91-4027-A9BF-E7EDB0247B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9618CFAF-ACA1-4D9B-AC36-748CDBD40935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9618CFAF-ACA1-4D9B-AC36-748CDBD40935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9618CFAF-ACA1-4D9B-AC36-748CDBD40935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9618CFAF-ACA1-4D9B-AC36-748CDBD40935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCE9E17-8352-4595-AB79-0887F674A6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCE9E17-8352-4595-AB79-0887F674A6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCE9E17-8352-4595-AB79-0887F674A6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCE9E17-8352-4595-AB79-0887F674A6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03899931-4C0F-4113-8E33-CA88D85D6ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03899931-4C0F-4113-8E33-CA88D85D6ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03899931-4C0F-4113-8E33-CA88D85D6ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03899931-4C0F-4113-8E33-CA88D85D6ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
